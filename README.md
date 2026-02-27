@@ -33,3 +33,7 @@ Make a PR or open an issue if you have a command that you would like to see!
 - Test on a development/staging environment first
 - Setting class references to NULL is generally safer than deleting entire attributes
 - Deleting attributes may cause data loss if the attribute is still in use
+
+## License
+
+MIT License
