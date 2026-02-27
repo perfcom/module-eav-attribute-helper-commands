@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * eWings eCommerce - https://ewings.be
+ * Copyright © eWings eCommerce. All rights reserved.
+ * This product is licensed per Magento install and only valid for eWings Customers.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\Console\CommandListInterface">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="perfcom_eav_check_missing_classes" xsi:type="object">
+                    Perfcom\EavAttributeHelperCommands\Console\Command\CheckMissingClassesCommand
+                </item>
+            </argument>
+        </arguments>
+    </type>
+</config>
+

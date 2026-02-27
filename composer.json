@@ -1,0 +1,20 @@
+{
+  "name": "perfcom/magento2-eav-attribute-helper-commands",
+  "description": "CLI commands to help with EAV attributes",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "magento/module-eav": "102.1.*"
+  },
+  "license": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Perfcom\\EavAttributeHelperCommands\\": ""
+    }
+  }
+}

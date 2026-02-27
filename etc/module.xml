@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * eWings eCommerce - https://ewings.be
+ * Copyright © eWings eCommerce. All rights reserved.
+ * This product is licensed per Magento install and only valid for eWings Customers.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Perfcom_EavAttributeHelperCommands">
+        <sequence>
+            <module name="Magento_Eav"/>
+        </sequence>
+    </module>
+</config>
